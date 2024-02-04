@@ -28,19 +28,27 @@ const App = () => {
                         }        
 
                         {
-                            /* Add ExpenseTotal component here */
+                            <div className='col-sm'>
+                                <ExpenseTotal />
+                            </div>
                         }        
                        
                         {
-                            /* Add ExpenseList component here */
+                            <div className='col-sm'>
+                                <ExpenseList />
+                            </div>
                         }         
 
                         {
-                            /* Add ExpenseItem component here */
+                            <div className='col-sm'>
+                                <ExpenseItem />
+                            </div>
                         }        
 
                         {
-                            /* Add AllocationForm component here under */
+                            <div className='col-sm'>
+                                <AllocationForm />
+                            </div>
                         }        
 
                 </div>
